@@ -11,7 +11,7 @@
 - Prisma with SQLite
 - Docker / Docker Compose
 
-## Requierments
+## Requirements
 
 - Docker Engine + Compose
 

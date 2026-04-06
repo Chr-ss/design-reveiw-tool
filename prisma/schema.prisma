@@ -1,0 +1,23 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model DesignOption {
+  id              String   @id @default(cuid())
+  name            String
+  description     String
+  imageUrl        String?
+  area            Float
+  cost            Int
+  embodiedCarbon  Float
+  daylightScore   Float
+  tags            String   @default("")
+  notes           String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
