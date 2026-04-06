@@ -31,7 +31,7 @@ Small demo project to compare and review designs.
 	[Run](#run)
 
 - Stack chosen and why:
-	[Stack](#stack), [More details](notes/plan.md)
+	[Stack](#stack), [Plan](notes/plan.md)
 
 - Data model approach:
 	[Plan: Data](notes/plan.md#data), [Trade-off: Data](notes/trade-off.md#data)
