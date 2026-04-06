@@ -1,4 +1,4 @@
-# design-reveiw-tool: "StudioLens"
+# design-review-tool: "StudioLens"
 
 Small demo project to compare and review designs.
 
@@ -20,7 +20,7 @@ Small demo project to compare and review designs.
 - Docker Engine + Compose
 
 ### Build and run
-1. Build `docker compose up --build`
+1. Run `docker compose up --build`
 2. Open http://localhost:3000
 
 
@@ -56,7 +56,7 @@ Small demo project to compare and review designs.
 I saw this as an overview/decision-support tool to demo my skills.
 
 **What you chose to prioritize:**
-I focused on a functional prototype with scaleable frontend and accepted trade-offs in UI/UX polish and infrastructure complexity to finish in reasonable time with easy local deployment.
+I focused on a functional prototype with scalable frontend and accepted trade-offs in UI/UX polish and infrastructure complexity to finish in reasonable time with easy local deployment.
 
 **How you balanced product thinking, code quality, and time:**
 I focused on functionality with reusable components that could scale, and used AI tools to help me move faster when possible.

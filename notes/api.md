@@ -1,6 +1,6 @@
 ## Import from Public Endpoint
 
-importing options from a public JSON endpoint via the `Import from URL` UI button
+Importing options from a public JSON endpoint via the `Import from URL` UI button
 - Default endpoint: `https://dummyjson.com/products/category/home-decoration`
 
 ### Mapping to local model
@@ -17,8 +17,8 @@ importing options from a public JSON endpoint via the `Import from URL` UI butto
 
 ### Assumptions
 
-- publicly access, no authentication
-- returns a json with `products` array (`DummyJSON` shape)
+- publicly accessible, no authentication
+- returns a JSON with `products` array (`DummyJSON` shape)
 - some domain values are calculated or have a creative replacement
 - no duplicate detection/protection
 - The import flow is for demonstration of external data ingestion and transformation.
